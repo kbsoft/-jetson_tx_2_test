@@ -83,7 +83,6 @@ def predict(image_file, network, ground_truth):
 
 
 if __name__ == "__main__":
-    print("A")
-    # network = Network('../../data/resnet_v1_50.ckpt', 1)
-    # work('../../result', network)
-    # csv.close()
+    network = Network('../../data/resnet_v1_50.ckpt', 1)
+    work('../../result', network)
+    csv.close()
